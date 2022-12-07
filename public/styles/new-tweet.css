@@ -28,7 +28,6 @@
   border-bottom: 2px solid;
   background-color: transparent;
   outline: none;
-
 }
 
 article {
@@ -49,8 +48,12 @@ article {
   align-items: flex-end;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 15px;
 
 }
+
+
+
 
 .tweeted-words {
   padding-top: 30px;
