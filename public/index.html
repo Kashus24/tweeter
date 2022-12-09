@@ -43,9 +43,11 @@
   <nav>
     <span class="logo">tweeter</span>
     <div class="phrase_container">
+      <a href="#">
       <div class="right-phrase">
         Write a new tweet
       </div>
+      </a>
       <div class="down-double">
         <i class="fa-solid fa-angles-down" style="color:red"></i>
       </div>
@@ -71,7 +73,8 @@
       <form id="main-form" action="/tweets/" method="POST">
         <label for="tweet-text">What are you humming about?</label>
         <div>
-          <textarea class="borderless-box" name="text" id="tweet-text" style="width: 655px; height: 55px;"></textarea>
+          <!-- style="width: 655px; height: 55px;" -->
+          <textarea class="borderless-box" name="text" id="tweet-text"></textarea>
         </div>
         <div>
           <button type="submit" class="tweet-button">Tweet</button>
