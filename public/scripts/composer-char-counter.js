@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  //total character counter color based on value remaining
   $('#tweet-text').on("input", function () {
 
     const charValue = $(this).val();
@@ -12,39 +13,7 @@ $(document).ready(function() {
     else {
       $("output[name='counter']").val(finalLength).css('color', 'red');
     }
-
-   // console.log($(this).parents().find('counter'));
   });
-
-
-
-
-  // --- our code goes here ---
 });
 
 
-// document.addEventListener("blur", () => {
-//   alert("fuzzy");
-// });
-
-// document.addEventListener("keydown", function() {
-//   console.log(this);
-// });
-
-/*
-document.addEventListener("keyup", () => {
-  alert("key goes up up");
-});
-
-document.addEventListener("keypress", () => {
-  alert("key was pressed");
-});
-
-document.addEventListener("change", () => {
-  alert("its all different");
-});
-
-document.addEventListener("input", () => {
-  alert("inputed info");
-});
-*/
