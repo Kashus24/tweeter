@@ -34,9 +34,12 @@ body {
 
 
 .error-message {
+
+  width: 44%;
   display: none;
   border: 4px solid red;
   color: red;
+ 
 }
 
 
@@ -48,7 +51,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     margin-left: 50px;
-    margin-right: 200px;
+    margin-right: 0px;
     margin-top: 150px;
     padding-top: 20px;
   }
