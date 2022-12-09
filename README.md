@@ -21,3 +21,7 @@ The app is perfect for tablet and full desktop size viewings and usings, each wi
 - body parser
 - md5
 - Chance
+
+## Screenshots
+
+!["Screenshot of home page"](https://github.com/Kashus24/tweeter/blob/master/docs/tweetspage1.png?raw=true)
