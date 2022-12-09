@@ -8,6 +8,10 @@ header {
   background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
 }
 
+.right-phrase {
+  color: white;
+}
+
 
 .pic-container {
   display: flex;
