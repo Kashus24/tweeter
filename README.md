@@ -24,4 +24,6 @@ The app is perfect for tablet and full desktop size viewings and usings, each wi
 
 ## Screenshots
 
-!["Screenshot of home page"](https://github.com/Kashus24/tweeter/blob/master/docs/tweetspage1.png?raw=true)
+!["Screenshot of home page"](https://github.com/Kashus24/tweeter/blob/master/docs/homepage.png?raw=true)
+!["Screenshot of error page"](https://github.com/Kashus24/tweeter/blob/master/docs/errorpage1.png?raw=true)
+!["Screenshot of tablet view"](https://github.com/Kashus24/tweeter/blob/master/docs/tabletView.png?raw=true)
