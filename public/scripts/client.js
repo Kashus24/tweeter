@@ -34,15 +34,15 @@ $(document).ready(function () {
     <div class="tweet-holder">
       <div class="tweet-header">
         <div>
-          <img src="${escape(tweet.user.avatars)}">${escape(tweet.user.name)}
+          <img src="${tweet.user.avatars}">${tweet.user.name}
           <!-- <h4>Newton</h4> -->
         </div>
-        <h4>${escape(tweet.user.handle)}</h4>
+        <h4>${tweet.user.handle}</h4>
       </div>
       <p class="tweeted-words"> ${escape(tweet.content.text)}</p>
     
     <footer>
-      <p class="timeago">${escape(timeago.format(tweet.created_at))}</p>
+      <p class="timeago">${timeago.format(tweet.created_at)}</p>
       <div class="icons">
         <i class="fa-solid fa-flag"></i>
         <i class="fa-sharp fa-solid fa-retweet"></i>
