@@ -13,8 +13,10 @@ $(document).ready(function () {
       $('.tweet-container').prepend(addedTweet);
     };
 
-  //reset the text box to empty upon successful tweet
-    document.getElementById('tweet-text').value='';
+  //reset the text box to empty and counter to 140 upon successful tweet
+    $('#tweet-text').val('');
+    $('.counter').val(140);
+
   };
 
 
