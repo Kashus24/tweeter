@@ -29,5 +29,6 @@ nav span {
 .down-double {
   display: flex;
   justify-content: center;
+  color: red;
 }
 
