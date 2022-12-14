@@ -3,15 +3,16 @@ $(document).ready(function() {
   //total character counter color based on value remaining
   $('#tweet-text').on("input", function () {
 
-    const charValue = $(this).val();
-    const charLength = charValue.length;
-    const finalLength = 140 - charLength;
+    const charValue = $(this).val().length;
+    const finalLength = 140 - charValue;
+    const parent = $(this).closest('form').find('.counter');
+    
+    $(parent).text(finalLength);
 
-    if (finalLength > 0) {
-      $("output[name='counter']").val(finalLength).css('color', 'black');
-    }
-    else {
-      $("output[name='counter']").val(finalLength).css('color', 'red');
+    if (finalLength < 0) {
+      $('.counter').addClass('counter-red');
+    } else {
+      $('.counter').removeClass('counter-red');
     }
   });
 });
